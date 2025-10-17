@@ -20,8 +20,9 @@ books_1.Best_Books_Ever.csv – Part 2 dataset with book metadata (in the add-da
 README.md – Repository overview.
 
 ## How to run Part 2
-1. Download ST10203070_PDAN8412_Part2.ipynb from the main branch and books_1.Best_Books_Ever.csv from the add-dataset branch. 
 
-2. Open the Jupyter Notebook in VS Code and ensure it points to the correct CSV file path.
+1. Clone the repository to ensure that both the jupyter and dataset files are available. (The dataset file books_1.Best_Books_Ever.csv is stored in the add-dataset branch and managed via Git LFS)
+   
+3. Open the Jupyter Notebook ST10203070_PDAN8412_Part2.ipynb in VS Code and ensure it points to the correct CSV file path books_1.Best_Books_Ever.csv.
 
-3. Run all cells from top to bottom. Outputs may vary slightly, but model performance metrics should closely match those reported. 
+4. Run all cells from top to bottom. Outputs may vary slightly, but model performance metrics should closely match those reported. 
